@@ -8,8 +8,8 @@ struct StrCommands {
   conststr Left;
   conststr Right;
   conststr Put;
-  conststr LargeRight;
   conststr LargeLeft;
+  conststr LargeRight;
 };
 
 class Idk {
