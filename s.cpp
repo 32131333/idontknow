@@ -59,7 +59,7 @@ public:
       while (larges > 0) {
         larges--;
         r+= mvToLeft ? commands.LargeLeft : commands.LargeRight;
-        if (larges > 0 | path > 0) r += " ";
+        if (larges > 0 || path > 0) r += " ";
       }
       while (path > 0) {
         path--;
